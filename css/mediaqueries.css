@@ -1,0 +1,456 @@
+
+/* ----------- iPad ----------- */
+
+@media only screen and (max-width: 769px) {
+.site-title {
+	padding: 23px 0px;
+	margin-left: 15px !important;
+}
+.submenu_list h3 {
+	color: #fff;
+}
+.submenu_list ul li:last-child() {
+	margin-bottom: 15px;
+}
+.submenu_list ul {
+	margin-bottom: 15px;
+	border-bottom: #13448e solid 1px;
+	padding-bottom: 5px;
+}
+.submenu_list ul li a {
+	color: #9be0ff;
+}
+.well {
+	min-height: inherit!important;
+}
+.well .report_title {
+	margin-top: 0px;
+}
+.heroimage .carousel-indicators {
+	bottom: 0px;
+	left: 50%;
+	list-style: outside none none;
+	margin-left: -30%;
+	padding-left: 0;
+	position: absolute;
+	text-align: center;
+	width: 60%;
+	z-index: 15;
+}
+.heroimage .carousel-indicators li {
+	display: inline-block;
+}
+.teaser .teaser_icon {
+	padding: 40px 8.5%;
+	min-height: 175px;
+}
+}
+ @media (min-width: 769px) {
+.sub_nav .navbar-collapse {
+	padding: 0px;
+}
+.teaser .teaser_icon {
+	padding: 95px 8.5%;
+	min-height: 284px;
+}
+.footer {
+	text-align: center;
+}
+.footer_ul {
+	text-align: center;
+}
+}
+
+
+
+/* ----------- iPhone 5 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 321px) {
+.sub_nav .navbar-header .navbar-toggle {
+	padding: 18px 15px;
+}
+.sub_nav .navbar-nav>li>a {
+	padding: 12px 15px;
+}
+.site-title {
+	padding: 15px 0px;
+	margin-left: 10px !important;
+}
+.container-rf, .site-header {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.filter_list_dg .nav-pills>li {
+	float: none;
+}
+.filters_view ul.filter_list_dg li {
+	display: block;
+}
+.filter_list_dg .btn_submit {
+	padding: 0;
+}
+.navbar-header-right input[type="text"]:focus {
+	width: 210px !important;
+}
+.navbar-toggle {
+	margin: 0px;
+}
+.navbar-header a.title {
+	padding: 15px 0px 14px 0px;
+	font-size: 15px;
+}
+.btn-learnmore {
+	/* border: none;
+        border-radius: 0;
+        font-size: 15px;
+        font-weight: 300;
+        background: #00b294;
+        padding: 7px 15px;
+        margin-top: 10px; */
+	font-size: 18px;
+	font-weight: 500;
+	padding: 15px 30px 15px 15px;
+	text-align: center;
+	color: #000;
+	display: block;
+	background-image: url(../images/icon_more.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.flyout {
+	max-width: inherit !important;
+	width: 100% !important;
+}
+.bc_container ul li .breadcrumb>.active {
+	white-space: nowrap;
+	width: 14em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.k-footer-template, .k-header {
+	display: none;
+}
+}
+
+/* ----------- iPhone 6 ----------- */
+/* Portrait */
+@media only screen and (max-device-width:376px) and (orientation: portrait) {
+.sub_nav .navbar-header .navbar-toggle {
+	padding: 18px 15px;
+}
+.sub_nav .navbar-nav>li>a {
+	padding: 12px 15px;
+}
+.site-title {
+	padding: 15px 0px;
+	margin-left: 10px !important;
+}
+.container-rf, .site-header {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.filter_list_dg .nav-pills>li {
+	float: none;
+}
+.filters_view ul.filter_list_dg li {
+	display: block;
+}
+.filter_list_dg .btn_submit {
+	padding: 0;
+}
+.navbar-brand .logo {
+	display: none;
+}
+.navbar-header-right input[type="text"]:focus {
+	width: 260px;
+}
+.btn-learnmore {
+	/* border: none;
+        border-radius: 0;
+        font-size: 15px;
+        font-weight: 300;
+        background: #00b294;
+        padding: 7px 15px;
+        margin-top: 10px; */
+	font-size: 18px;
+	font-weight: 500;
+	padding: 15px 30px 15px 15px;
+	text-align: center;
+	color: #000;
+	display: block;
+	background-image: url(../images/icon_more.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.flyout {
+	max-width: inherit !important;
+	width: 100% !important;
+}
+.k-footer-template, .k-header {
+	display: none;
+}
+}
+
+
+/* ----------- iPhone 6+----------- */
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 415px) {
+.sub_nav .navbar-header .navbar-toggle {
+	padding: 18px 15px;
+}
+.navbar-header-right ul li.notify a.red {
+	margin: 0px;
+	padding: 7px 10px;
+}
+.sub_nav .navbar-nav>li>a {
+	padding: 12px 15px;
+}
+.subnav {
+	min-height: 50px;
+}
+.site-title {
+	padding: 15px 0px;
+	margin-left: 10px !important;
+}
+.container-rf, .site-header {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.heroimage .carousel-tagline {
+	max-width: 190px !important;
+}
+.heroimage .carousel-tagline h1 {
+	font-size: 20px !important;
+}
+.heroimage .carousel-tagline p {
+	font-size: 14px !important;
+}
+.heroimage .carousel-tagline h1 span {
+	font-size: 18px !important;
+}
+.filter_list_dg .nav-pills>li {
+	float: none;
+}
+.filters_view ul.filter_list_dg li {
+	display: block;
+}
+.filter_list_dg .btn_submit {
+	padding: 0;
+}
+.navbar-header-right input[type="text"]:focus {
+	width: 286px !important;
+}
+.btn-learnmore {
+	/* border: none;
+        border-radius: 0;
+        font-size: 15px;
+        font-weight: 300;
+        background: #00b294;
+        padding: 7px 15px;
+        margin-top: 10px; */
+	font-size: 18px;
+	font-weight: 500;
+	padding: 15px 30px 15px 15px;
+	text-align: center;
+	color: #000;
+	display: block;
+	background-image: url(../images/icon_more.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.flyout {
+	max-width: inherit !important;
+	width: 100% !important;
+}
+.k-footer-template, .k-header {
+	display: none;
+}
+}
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.well {
+	min-height: 154px;
+}
+.navbar-default .navbar-toggle {
+	padding-left: 0px;
+}
+}
+ @media (max-width: 1299px) {
+.navbar-header {
+	float: none;
+}
+.navbar-toggle {
+	display: block;
+}
+.navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+	display: none!important;
+}
+.navbar-nav {
+	float: none!important;
+	margin: 0px;
+}
+.navbar-nav>li {
+	float: none;
+}
+.navbar-nav>li>a {
+	padding-top: 18px;
+	padding-bottom: 17px;
+}
+.navbar-text {
+	float: none;
+	margin: 15px 0;
+}
+/* since 3.1.0 */
+.navbar-collapse.collapse.in {
+	display: block!important;
+}
+.collapsing {
+	overflow: hidden!important;
+}
+.navbar-nav .open .dropdown-menu {
+	display: block;
+}
+.navbar-nav .open .dropdown-menu {
+	position: static;
+	float: none;
+	width: auto;
+	margin-top: 0;
+	background-color: transparent;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+	padding: 5px 15px 5px 25px;
+}
+.navbar-nav .open .dropdown-menu > li > a {
+	line-height: 20px;
+}
+.navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+	background-image: none;
+}
+.submenu_list h3 {
+	color: #fff;
+}
+.submenu_list ul li a {
+	color: #9be0ff;
+}
+.datafreshness_list ul li.df_title {
+	color: #fff;
+}
+.datafreshness_list ul li.df_value {
+	color: #9be0ff;
+}
+.k-footer-template, .k-header {
+	display: none;
+}
+}
+@media only screen and (max-device-width : 768px) {
+.heroimage .carousel-tagline {
+	max-width: 320px !important;
+}
+.heroimage .carousel-tagline h1 {
+	font-size: 24px !important;
+}
+.heroimage .carousel-tagline p {
+	font-size: 14px !important;
+}
+.heroimage .carousel-tagline h1 span {
+	font-size: 18px !important;
+}
+}
+/* Data Goveranance Filter panel start */
+@media only screen and (max-device-width : 767px) {
+.dg_filters_container .container {
+	display: none;
+}
+.dg_filters_container .container.active {
+	display: block;
+}
+kendo-pager-page-sizes, kendo-pager-info {
+	display: none !important;
+}
+}
+ @media only screen and (min-device-width : 768px) {
+.dg_filters_container .container {
+	display: block;
+}
+.dg_bc_container .icon_filter {
+	display: none;
+}
+}
+	/* Data Goveranance Filter panel end */
+ @media screen and (max-width: 991px) {
+.heroimage .carousel-tagline {
+	max-width: 320px !important;
+}
+.heroimage .carousel-tagline h1 {
+	font-size: 24px !important;
+}
+.heroimage .carousel-tagline p {
+	font-size: 14px !important;
+}
+.heroimage .carousel-tagline h1 span {
+	font-size: 18px !important;
+}
+.filter_list_dg ul.nav-pills li {
+	width: 100%;
+}
+.filter_list.filter_list_dg {
+	padding-top: 5px !important;
+}
+.side-collapse-container {
+	width: 100%;
+	position: relative;
+	left: 0;
+	transition: left .4s;
+}
+.side-collapse-container.out {
+	left: 200px;
+}
+.side-collapse {
+	top: 156px;
+	bottom: 0;
+	left: 0;
+	width: 215px;
+	position: fixed;
+	overflow: hidden;
+	transition: width .4s;
+	z-index: 99;
+	background: #fff;
+	padding: 15px 0 0 0;
+	-webkit-box-shadow: 10px 0px 17px -10px rgba(0,0,0,0.3);
+	-moz-box-shadow: 10px 0px 17px -10px rgba(0,0,0,0.3);
+	box-shadow: 10px 0px 17px -10px rgba(0,0,0,0.3);
+}
+.side-collapse.in {
+	width: 0;
+}
+}
+ @media only screen and (max-width: 1399px) {
+.heroimage .carousel-tagline h1 {
+	font-size: 26px;
+}
+.heroimage .carousel-tagline h1 span {
+	font-size: 18px;
+}
+.heroimage .carousel-tagline {
+	max-width: 440px;
+}
+}
+ @media (min-width: 1600px) {
+.large-hero-x {
+	max-width: 1600px;
+}
+}
