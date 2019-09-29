@@ -71,14 +71,14 @@ body {
 .navbar-brand img.logo {
 	margin-top: -1px;
 	max-width: none;
-	width: 108px;
+	width: 250px;
 	height: auto;
 	float: left;
 }
 .navbar-brand img.symbol {
 	margin-top: -1px;
 	max-width: none;
-	width: 26px;
+	width: 108px;
 	height: auto;
 	float: left;
 }
